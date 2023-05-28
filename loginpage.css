@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+.top{
+    width: 100%;
+    height: 51px;
+    font-size: 43px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    padding-left: 161px;
+    margin-left: -24px;
+  
+   
+}
+
+.bottom{
+    width: 100%;
+    height: 54px;
+    background-color:  rgb(76 74 74);
+}
+body{
+    margin: 0;
+}
+.image{
+    height: 56px;
+    float: left;
+    padding-right: 18px;
+    margin-left: -107px;
+    margin-top: -17px;
+    
+}
+p{
+    left: 20px;
+}
+.lib{
+    width: 126%;
+    height: 500px;
+    margin-top:50px;
+    margin-left: 107px;
+    margin-right: 20px;
+}
+.bleft{
+    width: 52%;
+    float: left;
+    
+}
+
+.bright{
+    width: 40%;
+    float: left;
+   
+}
+.grp{
+    width: 100px;
+    height: 100px;
+    padding-left: 466px;
+    padding-top: 75px;
+}
+.label{
+    margin-left: 76%;
+    padding-left: 10%;
+
+}
+.label0{
+    padding-left: 76%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.button{
+    margin-left: 76%;
+    background-color:#0096FF;
+    color: #fff;
+    cursor: pointer;
+    border-color:  rgb(23, 23, 58);
+    width: 12%;
+    font-size: 102%;
+    border-radius: 6px;
+    height: 32px;
+}
+
+.label1{
+    padding-left: 76%;
+    font-size: 99%;
+    
+}
+.button:hover{
+    background-color: rgb(23, 23, 58);
+}
+.word{
+    margin-top: 2%;
+
+}
+.extra{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height: 55px;
+}

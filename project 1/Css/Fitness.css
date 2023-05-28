@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+  background-image: url("images/bgimg.jpg");
+  
+}
+.logo{
+     
+     display: inline-block;
+     color: white;
+     position: absolute;
+     top: 25px;
+     left: 34px;
+}
+.menu{
+    
+    display: block;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    margin: 25px auto;
+    width: 33%;
+    
+
+}
+.action{
+    
+    display: inline-block;
+    color: white;
+    position: absolute;
+    right: 34px;
+    top: 25px;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+  font-size: 17px;
+
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px 25px;
+    
+}
+.navbar li a:hover,.navbar li a.active{
+    
+    color: red;
+    text-decoration: underline;
+    border-radius:25px ;
+    
+}
+.logo img{
+    filter: invert();
+    width: 50px;
+}
+.logo div{
+    text-align: center;
+}
+.btn{
+    border-radius: 25px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.para{
+    margin: 100px 30px;
+    padding: 10px;
+    width: 800px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 25px;
+
+}
+.para:hover{
+    color: rgb(189, 22, 33);
+    cursor: pointer;
+}
+
+.right{
+    background-color: rgb(9, 9, 9);
+    color: white;
+    position:absolute;
+    padding: 100px 100px;
+    border-radius: 25px;
+    right: 15px;
+    top: 100px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+}
+.login{
+    margin: 10px;
+}
+.right input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+}
+.right input:hover{
+    cursor: pointer;
+}
+#sub:hover{
+    background-color: orange;
+
+}

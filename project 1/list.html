@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            border: thin solid red;
+            
+        }
+        .first{
+            padding-left: 15px;
+        }
+        .frm{
+            padding-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hi">
+          <ol type="I" start="2">
+            <li>mango</li>
+            <li>apple</li>
+            <li>lemon</li>
+            <li>grape</li>
+          </ol>
+    </div>
+    <div>
+        <ul >
+            <li>mango</li>
+            <li>apple</li>
+            <li>lemon</li>
+            <li>grape</li>
+        </ul>
+    </div>
+    <div>
+        <dl>
+            <dd>Mango</dd>
+            <dt>Sweet and Yellow</dt>
+            <dd>Apple</dd>
+            <dt>Sweet and red</dt>
+            <dd>lemon</dd>
+            <dt>sour and yellow</dt>
+            <dd>grape</dd>
+            <dt>sweet and violet</dt>
+        </dl>
+    </div>
+    <ol>
+      <li>Fruits
+        <ul  type="square">
+            <li>mango</li>
+            <li>grape</li>
+            <li>apple</li>
+        </ul>
+      </li>
+      <li>Vegetables
+        <ol type="i">
+            <li>Tomato</li>
+            <li>brinjal</li>
+            <li>carrot</li>
+            <li>chilli</li>
+            <ul type="disc">
+                <li>Greenchilli</li>
+                <li>Redchilli</li>
+                <li>Pepper</li>
+            </ul>
+        </ol>
+      </li>
+      <li>Vehicle
+        <ol>
+            <li>Car</li>
+            <li>Bike</li>
+        </ol>
+      </li>
+    </ol>
+
+    <table border="" cellpadding="40">
+        <thead>
+            <tr> <th>Name</th>
+             <th>place</th>
+             <th>rollno</th></tr>
+
+        </thead>
+        <tbody>
+            <tr>
+            <td>Manu</td>
+            <td>Tvm</td>
+            <td>10</td>
+            </tr>
+            <tr>
+            <td>Anu</td>
+            <td>Tvm</td>
+            <td>14</td>
+            </tr>
+            <tr>
+            <td>Aju</td>
+            <td>Tvm</td>
+            <td>15</td>
+            </tr>
+            <tr>
+            <td>Tinu</td>
+            <td>Tvm</td>
+            <td>20</td>
+            </tr>
+
+        </tbody>
+    </table>
+   <br>
+   <hr>
+    <table border="" cellpadding="40">
+     <tr>
+        <td colspan="2">coloumn 1</td>
+        <td>coloumn 2</td>
+        <td colspan="2"> coloumn 3</td>
+     </tr>
+     <tr>
+        <td colspan="2" rowspan="2"> Data 1</td>
+        <td colspan="3">Data 2</td>
+     </tr>
+     <tr>
+        <td>data 4</td>
+        <td rowspan="2">data 5</td>
+        <td rowspan="2">data 6</td>
+ </tr>
+ <tr>
+
+    <td colspan="2">data 7</td>
+    <td>data 8</td>
+ </tr>
+
+
+    </table>
+
+
+
+
+
+ <div class="frm">
+    <form action="backend.php">
+        <div class="first"><label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name"></div>
+        <br>
+        <div><label for="Password">Password</label>
+        <input type="password" id="Password" name="pass" placeholder="password"></div>
+        <br>
+        <div><label for="address">Address</label>
+             <input type="text" id="address" placeholder="address"></div>
+             <br>
+        <div><label for="DOB">Date of Birth</label>
+            <input type="date" id="DOB"></div>
+        <div>Gender:  Male:<input type="radio" name="MyGender">Female:<input type="radio" name="MyGender"></div>
+        <br>
+        <div><label for="car">Car</label>
+            <select name="Mycar" id="car">
+                <option value="Mercedes">Mercedes</option>
+                <option value="Lamborghini" selected>Lamborghini</option>
+                <option value="Ferrari">Ferrari</option>
+                <option value="Pagani">Pagani</option>
+            </select></div>
+            <br>
+            <div>write about yourself: <br> <textarea name="Write about yourself" id="" cols="30" rows="10"></textarea></div>
+            <div><input type="submit" value="Submit the form"></div>  
+    </form>
+ </div>
+</body>
+</html>
